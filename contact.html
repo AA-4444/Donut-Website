@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Taviraj:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class="contact">
+        <div class="navbar">
+            <img src="images/donot.png" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="catalog.html">Catalog</a></li>
+                    <li><a href="">Delivery</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <h1 class="anim">Donuts Delivery</h1>
+            <p class="anim">Fill the invormation below and order our sweet donuts.</p>
+            <a href="#contactt" class="btn">Fill information</a>
+
+           <!-- <div class="arrow-icons">
+                <img src="images/bx-arrow-back.svg">
+                <img src="images/bx-right-arrow-alt.svg">
+            </div>-->
+        </div>
+
+        <img src="images/simson.png" class="simson anim">
+    </section>
+
+    <section class="location">
+
+        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d202845.1150314221!2d-122.1811818889592!3d37.40272091957427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2z0JrRgNC10LzQvdC40LXQstCw0Y8g0LTQvtC70LjQvdCwLCDQmtCw0LvQuNGE0L7RgNC90LjRjywg0KHQqNCQ!5e0!3m2!1sru!2spl!4v1658854129470!5m2!1sru!2spl"
+         width="600" height="450" style="border:0;" allowfullscreen="" 
+         loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d129421.52734540266!2d-74.2281535620437!3d40.54945208987982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24dac17b3adb1%3A0xffb42e880c959186!2sDunkin&#39;%20Donuts%20Drive%20Thru%2C%20Staten%20Island%2C%20NY%2010303%2C%20%D0%A1%D0%A8%D0%90!5e0!3m2!1sru!2spl!4v1659876936380!5m2!1sru!2spl"
+          width="600" height="450" style="border:0;" 
+         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+       </section>
+        <!--Contact Us-->       
+
+  <section class="contact-us" id="contactt">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Staten Island, New York 10303</h5>
+                    <p>USA</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+1 4441378666</h5>
+                    <p>Monday to Saturday, 8AM to 11PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>sweetdonuts@gmail.com</h5>
+                    <p>Email us if you have question</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="subject" placeholder="Enter your address" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="red-btn">Send Message</button>
+            </form>
+
+
+        </div>
+    </div>
+
+  </section>
+</body>
+</html>
